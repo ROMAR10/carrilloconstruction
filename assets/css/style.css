@@ -16,7 +16,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #03C4EB;
+  color: #FFE700;
   transition: 0.5s;
 }
 
@@ -67,7 +67,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #03C4EB;
+  background: #003A9A;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -147,7 +147,7 @@ h6 {
 #hero h2 span {
   color: #fff;
   transition: 0.3s;
-  border-bottom: 2px solid #03C4EB;
+  border-bottom: 2px solid #FFE700;
 }
 
 @media (max-width: 768px) {
@@ -180,8 +180,8 @@ h6 {
 }
 
 #hero .btn-get-started {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #ED1D33;
+  border: 2px solid #ED1D33;
   color: #fff;
 }
 
@@ -197,8 +197,8 @@ h6 {
 }
 
 #hero .btn-services:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #003A9A;
+  border: 2px solid #003A9A;
 }
 
 /*--------------------------------------------------------------
@@ -295,7 +295,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #03C4EB;
+  color: #FFE700;
 }
 
 .navbar .dropdown ul {
@@ -425,7 +425,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #03C4EB;
+  color: #ED1D33;
 }
 
 .navbar-mobile .getstarted,
@@ -489,10 +489,26 @@ section {
   margin-bottom: 40px;
 }
 
-.section-title-divider {
+.section-title-divider-y {
   width: 50px;
   height: 3px;
-  background: #03C4EB;
+  background: #FFE700;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.section-title-divider-b {
+  width: 50px;
+  height: 3px;
+  background: #003A9A;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.section-title-divider-r {
+  width: 50px;
+  height: 3px;
+  background: #ED1D33;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -556,10 +572,10 @@ section {
 
 #services .service-icon {
   float: left;
-  background: #03C4EB;
+  background: #003A9A;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 1px solid #003A9A;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -578,7 +594,7 @@ section {
 }
 
 #services .service-item:hover .service-icon i {
-  color: #03C4EB;
+  color: #ED1D33;
 }
 
 #services .service-title {
@@ -668,7 +684,7 @@ section {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #03C4EB;
+  color: #ED1D33;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -716,7 +732,7 @@ section {
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
 #portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #03C4EB;
+  color: #003A9A;
 }
 
 #portfolio .portfolio-item .portfolio-info .details-link {
@@ -889,11 +905,11 @@ section {
 }
 
 #team .member .social a {
-  color: #b3b3b3;
+  color: #FFE700;
 }
 
 #team .member .social a:hover {
-  color: #03C4EB;
+  color: #003A9A;
 }
 
 #team .member .social i {
@@ -909,12 +925,12 @@ section {
 }
 
 #contact .info {
-  color: #333333;
+  color: #fff;
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #03C4EB;
+  color: #FFE700;
   float: left;
   line-height: 0;
 }
