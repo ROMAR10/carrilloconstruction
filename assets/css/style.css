@@ -726,7 +726,7 @@ section {
   position: absolute;
   right: 48px;
   font-size: 28px;
-  top: calc(50% - 28px);
+  top: calc(50% - 20px);
   color: #4d4d4d;
 }
 
